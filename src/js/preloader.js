@@ -4,7 +4,7 @@ import 'animate.css';
 const img = new Image();
 img.src =
   // 'https://media.tenor.com/ycXJZJnD2SwAAAAd/welcome-welcome-message-for-the-group.gif';
-  'https://media.tenor.com/Yvzvgu1EsA4AAAAd/%D0%BB%D0%B8%D1%81-metro-goldwyn-mayer.gif'
+  'https://media.tenor.com/Yvzvgu1EsA4AAAAd/%D0%BB%D0%B8%D1%81-metro-goldwyn-mayer.gif';
 let i = 0;
 
 window.addEventListener('beforeunload', () => {
@@ -23,10 +23,10 @@ if (document.querySelector('.nav__li[href="/index.html"]')) {
   // console.log(Boolean(document.querySelector('.nav__li[href="/index.html"]')))
   linkOnSecondPageHome = document.querySelector('.nav__li[href="/index.html"]');
 }
-if (document.querySelector('.nav__li[href="/filmoteka-team10/index.html"]')) {
-  // console.log(Boolean(document.querySelector('.nav__li[href="/filmoteka-team10/index.html]"')))
+if (document.querySelector('.nav__li[href="/filmoteka1/index.html"]')) {
+  // console.log(Boolean(document.querySelector('.nav__li[href="/filmoteka1/index.html]"')))
   linkOnSecondPageHome = document.querySelector(
-    '.nav__li[href="/filmoteka-team10/index.html"]'
+    '.nav__li[href="/filmoteka1/index.html"]'
   );
 }
 
@@ -38,11 +38,9 @@ if (document.querySelector('.nav__li[href="/my-library.html"]')) {
   linkOnSecondPageLibrary = document.querySelector('[href="/my-library.html"]');
 }
 
-if (
-  document.querySelector('.nav__li[href="/filmoteka-team10/my-library.html"]')
-) {
+if (document.querySelector('.nav__li[href="/filmoteka1/my-library.html"]')) {
   linkOnSecondPageLibrary = document.querySelector(
-    '.nav__li[href="/filmoteka-team10/my-library.html"]'
+    '.nav__li[href="/filmoteka1/my-library.html"]'
   );
 }
 
